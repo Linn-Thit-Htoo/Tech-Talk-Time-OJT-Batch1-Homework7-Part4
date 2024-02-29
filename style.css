@@ -1,0 +1,77 @@
+body{
+    background-image: url(coffee.jpg);
+    background-position: center;
+    background-size:cover ;
+    background-repeat: no-repeat;
+    width:100%;
+    min-height: 100vh;
+}
+nav{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    background-color:black;
+    position:fixed;
+    top:0px;
+    left:0px;
+    z-index: 10001;
+}
+    
+nav>ul {
+    display:flex;
+    gap:10px;
+    list-style: none;
+}
+nav a{
+    text-decoration: none;
+color:white;
+}
+nav ul a:hover{
+    background-color:#BB6B24;
+    cursor:pointer;
+
+}
+.coffee{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:100px;
+}
+.home>div>h3{
+    color:white;
+    font-weight:10px;
+    font-size:30px;
+    width:300px;
+    padding-top:20px;
+}
+.home>div{
+    width:500px;
+    float:right;
+    padding-top:100px;
+}
+.home>div>p{
+    color:aliceblue;
+    font-size:14px;    
+    padding-bottom:5px;
+    float:right;    
+}
+.btn{
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;   
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-top:20px;     
+}
+.home>div>h3 p a{
+    display:flex;
+    justify-content: flex end;
+    align-items:center;
+    flex-direction:column;
+}
+/* section */
+
+    
